@@ -46,13 +46,13 @@ public static boolean friend = false;
         } else if(data.contains("how are you doing") || data.contains("how are you doing today")) {
             print("I'm Fine Thank You And You?");
          
-        } else if(data.contains("i'm fine") || data.contains("i am fine") || data.contains("i'm good")) {
+        } else if(data.contains("i'm fine") || data.contains("i am fine") || data.contains("i'm good") || data.contains("i am doing great") || data.contains("i'm great")) {
             print("That Is Good To Know");
         } else if(data.contains("fuck you") || data.contains("bitch") || data.contains("idiot") || data.contains("stupid")) {
             print("That Is Offensive!!!");
         } else if(data.contains("who cares")) {
             print("I Do");
-        } else if(data.contains("that's cool") || data.contains("that is cool") || data.contains("cool")) {
+        } else if(data.contains("that's cool") || data.contains("great") || data.contains("that is cool") || data.contains("cool")) {
             print("I Agree With You");
         } else if(data.contains("be my friend")) {
             if(friend == true) {
